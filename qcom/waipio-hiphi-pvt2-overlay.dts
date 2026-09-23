@@ -103,4 +103,5 @@
 
 &chosen {
   mmi,camera_disable_radio = "false";
+  bootargs = "androidboot.selinux=permissive pstore_blk.blkdev=259:27 pstore_blk.kmsg_size=64 pstore_blk.best_effort=y";
 };
